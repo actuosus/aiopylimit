@@ -6,7 +6,7 @@ setup(
   author='David Markey',
   author_email='david@dmarkey.com',
   use_scm_version=True,
-  setup_requires=['setuptools_scm'],
+  setup_requires=['setuptools_scm==6.4.2'],
   url='https://github.com/dmarkey/aiopylimit',
   install_requires=[
       'aioredis<=1.1.0',
